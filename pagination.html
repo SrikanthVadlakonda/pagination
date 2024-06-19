@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <!-- Font Awesome CDN link -->
+     <link rel="stylesheet" href="pagination.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <button class="button" id="startBtn">
+            <i class="fas fa-angle-double-left"></i> 
+        </button>
+        <button class="button prevNext" id="prev">
+            <i class="fas fa-angle-left"><p>prew</p></i>
+        </button>
+
+        <div class="links">
+            <a href="#" class="link active">1</a>
+            <a href="#" class="link">2</a>
+            <a href="#" class="link">3</a>
+            <a href="#" class="link">4</a>
+            <a href="#" class="link">5</a>
+            <a href="#" class="link">6</a>
+        </div>
+
+        <button class="button prevNext" id="next">
+            <i class="fas fa-angle-right"><p>next</p></i> 
+        </button>
+        <button class="button" id="endBtn">
+            <i class="fas fa-angle-double-right"></i> 
+        </button>
+    </div>
+<script src="pagination.js"></script>
+</body>
+</html>
